@@ -6,7 +6,7 @@ The choice is up to you!
 
 ## Usage
 
-$ git clone https://github.com/espeed/dskel
+$ git clone https://github.com/espeed/dskel.git
 
 ## License
 
