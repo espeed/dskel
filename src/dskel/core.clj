@@ -13,10 +13,8 @@
 ;; parse schema dtm file
 (def schema-tx (read-string (slurp "samples/seattle/seattle-schema.dtm")))
 
-;; display first statement
-(first schema-tx)
-
 (defn -main
   "I don't do a whole lot."
   [& args]
-  (println "Hello, World!"))
+  (println "It works! Here's the first line of the sameple schema...")
+  (println (first schema-tx)))
