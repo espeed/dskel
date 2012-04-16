@@ -16,5 +16,6 @@
 (defn -main
   "I don't do a whole lot."
   [& args]
-  (println "It works! Here's the first line of the sameple schema...")
+
+  (println "It works! Here's the first statement of the sample schema...")
   (println (first schema-tx)))
